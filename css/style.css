@@ -1,0 +1,114 @@
+/* Reset */
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+    
+}
+
+/* Main Styling */
+html,body {
+  line-height: normal;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  color: black;
+  margin: 10px 0;
+}
+
+/*Utility Classes*/
+.container {
+  margin: auto;
+  overflow: auto;
+  padding: 0;
+
+}
+.text-primary {
+  color: black;
+}
+
+.lead {
+  font-size: 25px;
+}
+.btn {
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  background: #650a0a;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Navbar */
+#navbar {
+    color: #fff;
+  overflow: auto;
+}
+#navbar ul {
+  list-style: none;
+  float: left;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover, 
+#navbar ul li a.current {
+  background: white;
+  color: #650a0a;
+}
+
+
+
+/* Showcase */
+#showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 40px;
+  line-height: 1.2em;
+  padding-top: 20px;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+
+/* images */
+#logo {
+float: none;
+padding-left: 37.25%;
+background: url(/img/logo.jpg) no-repeat center center fixed;
+
+}
+
+#dimsum {
+  float: none;
+  padding-left: 37.5%;
+  padding-top: 50%;
+  background: url(/img/dimsum.png) no-repeat center center fixed; 
+
+}
