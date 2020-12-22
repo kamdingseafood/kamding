@@ -11,5 +11,5 @@ $(function () {
 document.querySelector('#menu-button').addEventListener('click', openMenu);
 
 function openMenu(){
-    window.open('file:///D:/Downloads/kamdingGit/kamding/kamdingmenu.pdf');
+    window.open('kamdingmenu.pdf');
 }

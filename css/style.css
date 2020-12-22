@@ -34,11 +34,9 @@
 .location{
   font-size: 20px;
   position: absolute;
-  top: 93%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-
 }
 
 .menu{
@@ -125,5 +123,5 @@
 body {
   font-family: 'Lato';
 
-  min-height: 110vh;
+
 }
