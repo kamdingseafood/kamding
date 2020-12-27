@@ -1,5 +1,5 @@
 document.querySelector('#cta-menu').addEventListener('click', openMenu);
 
 function openMenu(){
-    window.open('kamdingmenu.pdf');
+    window.open('kamdingmenu.pdf','_self');
 }
