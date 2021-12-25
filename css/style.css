@@ -121,9 +121,19 @@ nav {
 	font-weight: bold;
 }
 
+.cta-menu:hover {
+	background-color: #6d2d2d;
+}
+
 .cover img {
 	padding: 50px 0px 0px 0px;
 	width: 500px;
+}
+
+.closed {
+	font-size: 70px;
+	text-align: center;
+	color: rgb(0, 80, 0);
 }
 
 @media screen and (max-width: 650px) {
