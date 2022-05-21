@@ -152,16 +152,5 @@ nav {
 	.cover img {
 		width: 350px;
 	}
-
-	.temp {
-		font-size: 25px;
-		font-weight: 500;
-	}
 }
 
-.temp {
-	padding-top: 100px;
-	text-align: center;
-	font-size: 50px;
-	font-weight: 800;
-}
