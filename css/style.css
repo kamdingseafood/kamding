@@ -101,6 +101,16 @@ nav {
 	font-weight: 400;
 }
 
+.notice {
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.notice-container {
+	max-width: 1100px;
+}
+
 .cta {
 	padding: 30px 0px 20px 0px;
 }
