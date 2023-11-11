@@ -26,21 +26,6 @@ header {
 	flex: 10;
 }
 
-/* Uncomment when there is a logo on the top left
-.logo{
-  display: flex;
-  align-items: center;
-  color: black;
-  text-decoration: none;
-  position: relative;
-  top: 22px;
-  height: 55px;
-  margin: 5px;
-  font-weight: 700;
-}
-*/
-
-/*temperary */
 .logo {
 	display: flex;
 	align-items: center;
@@ -95,11 +80,6 @@ nav {
 	align-items: center;
 }
 
-.location p {
-	text-align: center;
-	font-size: 25px;
-	font-weight: 400;
-}
 
 .notice {
 	text-align: center;
@@ -109,30 +89,6 @@ nav {
 
 .notice-container {
 	max-width: 1100px;
-}
-
-.cta {
-	padding: 30px 0px 20px 0px;
-}
-
-.cta-menu {
-	border-radius: 8px;
-	background-color: #650a0a;
-	border: none;
-	color: white;
-	padding: 12px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
-}
-
-.cta-menu:hover {
-	background-color: #6d2d2d;
 }
 
 .cover img {
